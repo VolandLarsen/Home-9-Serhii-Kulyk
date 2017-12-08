@@ -8,31 +8,41 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<header class="container">
+<header class="header">
     <nav>
-        <ul class=nav">
-            <li class="nav-item"><a href="#">Home</a></li>
-            <li class="nav-item"><a href="#">Events</a></li>
-            <li class="nav-item"><a href="#">Gallery</a></li>
-            <li class="nav-item"><a href="#">News</a></li>
-            <li class="nav-item"><a href="#">Albums</a></li>
-            <li class="nav-item"><a href="#">Pages</a></li>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">EVENTS</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">GALLERY</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">NEWS</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">ALBUMS</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">PAGES</a></li>
         </ul>
-        <img src="image/logo.png" class="logo" alt="Logo">
-        <div class="social-purshcase">
-            <a class="social"><i class="fa fa-facebook" aria-hidden="true"></i> 32k</a>
-            <a class="social"><i class="fa fa-twitter" aria-hidden="true"></i> 55k</a>
-            <a class="social"><i class="fa fa-google-plus" aria-hidden="true"></i> 23k</a>
-            <a class="purshcase-button" href="#">Purchase Ticket</a>
-        </div>
+        <a class="logo-nav" href="#"><img src="image/logo.png" class="logo" alt="Logo"></a>
+        <ul class="social-list">
+            <li class="social-item">
+                <a class="social" href="#"><i class="fa fa-facebook" aria-hidden="true"></i> 32k</a>
+            </li>
+            <li class="social-item">
+                <a class="social" href="#"><i class="fa fa-twitter" aria-hidden="true"></i> 55k</a>
+            </li>
+            <li class="social-item">
+                <a class="social" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i> 23k</a>
+            </li>
+            <li class="social-item">
+                <a class="purshcase-button" href="#">PURSHCASE TICKET</a>
+            </li>
+        </ul>
     </nav>
 </header>
 <section class="promo">
-    <img src="image/promo.png" class="promo-img" alt="Rock Promo">
-    <div class="heading">
-        <h1 class="main-header">LETS ROCK</h1>
-        <p class="sub-header">With Cantus</p>
-        <a class="sub-head-button" href="#">DISCOVER MORE</a>
+    <div class="promo-info">
+        <img src="image/promo.png" class="promo-img" alt="Rock Promo">
+        <div class="main-heading">
+            <h1 class="main-header">LETS ROCK</h1>
+            <p class="sub-header">With Cantus</p>
+            <a class="sub-head-button" href="#">DISCOVER MORE</a>
+        </div>
     </div>
 </section>
 <section class="introducing">
@@ -42,25 +52,31 @@
             <p class="subhead">Our Members</p>
         </div>
         <div class="buttons">
-            <button class="left"></button>
-            <button class="right"></button>
+            <button class="left"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+            <button class="right"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
         </div>
         <div class="container">
             <ul class="group">
                 <li class="music-person">
                     <img src="image/vocal.png" class="musician" alt="Vocal player">
+                    <div class="musician-info">
                     <h3 class="musician-head">Jone Smith</h3>
                     <p class="musician-subhead">Vocal</p>
+                    </div>
                 </li>
                 <li class="music-person">
                     <img src="image/drum.png" class="musician" alt="Drum player">
+                    <div class="musician-info">
                     <h3 class="musician-head">Rendi Outhor</h3>
                     <p class="musician-subhead">Drum</p>
+                    </div>
                 </li>
                 <li class="music-person">
                     <img src="image/guitar.png" class="musician" alt="Guitar player">
+                    <div class="musician-info">
                     <h3 class="musician-head">Renes Odim</h3>
                     <p class="musician-subhead">Guitar</p>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -101,7 +117,9 @@
             <button class="left"></button>
             <button class="right"></button>
         </div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/3MMMe1drnZY?rel=0" frameborder="0"
+        <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/3MMMe1drnZY?rel=0&autoplay=0&showinfo=0&controls=0&HD=1"
+                frameborder="0"
                 gesture="media" allow="encrypted-media" allowfullscreen></iframe>
     </div>
 </section>
@@ -122,32 +140,32 @@
 
         <iframe width="100%" height="166" scrolling="no" frameborder="no"
                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/57439961&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
-    <ul class="song-list">
-        <li class="songs-item">
-            <ul class="list">
-                <li class="song"><a class="song-link" href="#">My heart is dancing<</a>/li>
-                <li class="song"><a class="song-link" href="#">Good day</a></li>
-                <li class="song"><a class="song-link" href="#">Life for rent</a></li>
-                <li class="song"><a class="song-link" href="#">Hello It’s me</a></li>
-            </ul>
-        </li>
-        <li class="songs-item">
-            <ul class="list">
-                <li class="song"><a class="song-link" href="#">My heart is dancing</a></li>
-                <li class="song"><a class="song-link" href="#">Good day</a></li>
-                <li class="song"><a class="song-link" href="#">Life for rent</a></li>
-                <li class="song"><a class="song-link" href="#">Hello It’s me</a></li>
-            </ul>
-        </li>
-        <li class="songs-item">
-            <ul class="list">
-                <li class="song"><a class="song-link" href="#">My heart is dancing</a></li>
-                <li class="song"><a class="song-link" href="#">Good day</a></li>
-                <li class="song"><a class="song-link" href="#">Life for rent</a></li>
-                <li class="song"><a class="song-link" href="#">Hello It’s me</a></li>
-            </ul>
-        </li>
-    </ul>
+        <ul class="song-list">
+            <li class="songs-item">
+                <ul class="list">
+                    <li class="song"><a class="song-link" href="#">My heart is dancing<</a>/li>
+                    <li class="song"><a class="song-link" href="#">Good day</a></li>
+                    <li class="song"><a class="song-link" href="#">Life for rent</a></li>
+                    <li class="song"><a class="song-link" href="#">Hello It’s me</a></li>
+                </ul>
+            </li>
+            <li class="songs-item">
+                <ul class="list">
+                    <li class="song"><a class="song-link" href="#">My heart is dancing</a></li>
+                    <li class="song"><a class="song-link" href="#">Good day</a></li>
+                    <li class="song"><a class="song-link" href="#">Life for rent</a></li>
+                    <li class="song"><a class="song-link" href="#">Hello It’s me</a></li>
+                </ul>
+            </li>
+            <li class="songs-item">
+                <ul class="list">
+                    <li class="song"><a class="song-link" href="#">My heart is dancing</a></li>
+                    <li class="song"><a class="song-link" href="#">Good day</a></li>
+                    <li class="song"><a class="song-link" href="#">Life for rent</a></li>
+                    <li class="song"><a class="song-link" href="#">Hello It’s me</a></li>
+                </ul>
+            </li>
+        </ul>
     </div>
 </section>
 <section class="instagram">
@@ -157,48 +175,46 @@
     </div>
     <div class="insta-photos">
         <ul class="insta-list">
-            <li class="insta-item"><img src="image/insta-photo1.png" class="insta-photo" alt="Instagram"> </li>
-            <li class="insta-item"><img src="image/insta-photo2.png" class="insta-photo" alt="Instagram"> </li>
-            <li class="insta-item"><img src="image/insta-photo3.png" class="insta-photo" alt="Instagram"> </li>
-            <li class="insta-item"><img src="image/insta-photo4.png" class="insta-photo" alt="Instagram"> </li>
+            <li class="insta-item"><img src="image/insta-photo1.png" class="insta-photo" alt="Instagram"></li>
+            <li class="insta-item"><img src="image/insta-photo2.png" class="insta-photo" alt="Instagram"></li>
+            <li class="insta-item"><img src="image/insta-photo3.png" class="insta-photo" alt="Instagram"></li>
+            <li class="insta-item"><img src="image/insta-photo4.png" class="insta-photo" alt="Instagram"></li>
         </ul>
     </div>
 </section>
 <section class="download">
     <div class="container">
-    <div class="download-head">
-        <h2 class="head">INSTAGRAM</h2>
-        <p class="subhead">Feed</p>
-    </div>
-    <div class="app-stores">
-        <ul class="app-list">
-            <li class="app-item"><a href="#" class="android"><img src="image/android.png" alt="Play Store"></a></li>
-            <li class="app-item"><a href="#" class="apple"><img src="image/android.png" alt="Apple Store"></a></li>
-        </ul>
-    </div>
+        <div class="download-head">
+            <h2 class="head">INSTAGRAM</h2>
+            <p class="subhead">Feed</p>
+        </div>
+        <div class="app-stores">
+            <ul class="app-list">
+                <li class="app-item"><a href="#" class="android"><img src="image/android.png" alt="Play Store"></a></li>
+                <li class="app-item"><a href="#" class="apple"><img src="image/android.png" alt="Apple Store"></a></li>
+            </ul>
+        </div>
     </div>
 </section>
 <section class="newslatter">
     <form class="news-latter" method="post" action="#">
         <ul>
-            <li class="input-item"> <input type="email" class="email" placeholder="subscribe newsletter"></li>
-            <li class="input-item"> <input type="submit" class="submit" value="->"></li>
+            <li class="input-item"><input type="email" class="email" placeholder="subscribe newsletter"></li>
+            <li class="input-item"><input type="submit" class="submit" value="->"></li>
         </ul>
     </form>
 </section>
 <hr>
 <footer class="footer">
-    <div class="foter-links">
-        <div class="container">
-        <ul class="footer-link-list">
-            <li class="footer-link"><a class="fotlink"></a> </li>
-            <li class="footer-link"><a class="fotlink"></a> </li>
-            <li class="footer-link"><a class="fotlink"></a> </li>
-            <li class="footer-link"><a class="fotlink"></a> </li>
-            <li class="footer-link"><a class="fotlink"></a> </li>
-            <li class="footer-link"><a class="fotlink"></a> </li>
+    <div class="footer-links">
+        <ul class="footer-list">
+            <li class="foot-item"><a href="#" class="foot-link">Home</a></li>
+            <li class="foot-item"><a href="#" class="foot-link">Events</a></li>
+            <li class="foot-item"><a href="#" class="foot-link">Gallery</a></li>
+            <li class="foot-item"><a href="#" class="foot-link">News</a></li>
+            <li class="foot-item"><a href="#" class="foot-link">Albums</a></li>
+            <li class="foot-item"><a href="#" class="foot-link">Pages</a></li>
         </ul>
-        </div>
     </div>
     <p class="copyright">Copyright © 2009–2016 cantus © their respective owners. Shipped from Salem, Mass. USA.</p>
 </footer>

@@ -1,0 +1,104 @@
+//header
+
+.header {
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    padding: 0 40px 0 40px;
+    .nav-item {
+        list-style-type: none;
+        padding: 0;
+        margin: 0 10px;
+    }
+}
+
+.social-list {
+    display: flex;
+    align-items: center;
+    padding: 0 45px 0 45px;
+    .social-item {
+        list-style-type: none;
+        padding: 0;
+        margin: 0 15px;
+    }
+}
+
+.logo-nav {
+    margin: 5px auto;
+}
+
+
+
+//promo section
+
+.promo-info {
+    position: relative;
+}
+
+.promo-img {
+    width: 100%;
+    padding: 0;
+    height: auto;
+    vertical-align: middle;
+}
+
+.main-heading {
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.heading {
+    margin: 0;
+    padding: 0;
+}
+
+.buttons {
+    margin-left: auto;
+    text-align: right;
+}
+
+.group{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    .music-person {
+        list-style-type: none;
+        padding: 0;
+        margin: 0 10px;
+    }
+}
+
+.musician-info {
+    position: relative;
+    top: -100px;
+}
+
+//footer
+
+.footer {
+    text-align: center;
+}
+
+.footer-links {
+    display: inline-block;
+    text-align: center;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+    .foot-item {
+        list-style-type: none;
+        padding: 0;
+        margin: 0 10px;
+    }
+}

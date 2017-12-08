@@ -1,0 +1,43 @@
+.header {
+    background-color: $main-color;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: line-through;
+}
+
+.social {
+    text-decoration: none;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.social:hover {
+    text-decoration: line-through;
+}
+
+.purshcase-button {
+    text-decoration: none;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 15px;
+    color: $main-color;
+    border-radius: 25px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.purshcase-button:hover {
+    color: $main-font-color;
+    transition: 0.5;
+}
