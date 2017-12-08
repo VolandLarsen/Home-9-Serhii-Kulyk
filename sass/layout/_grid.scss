@@ -21,7 +21,7 @@
 .social-list {
     display: flex;
     align-items: center;
-    padding: 0 45px 0 45px;
+    padding: 0 47px 0 47px;
     .social-item {
         list-style-type: none;
         padding: 0;
@@ -32,8 +32,6 @@
 .logo-nav {
     margin: 5px auto;
 }
-
-
 
 //promo section
 
@@ -50,21 +48,38 @@
 
 .main-heading {
     position: absolute;
-    bottom: 50px;
+    bottom: 100px;
     text-align: center;
     display: inline-block;
     width: 100%;
 }
+
+.main-header {
+    margin: 0;
+    padding: 0;
+}
+
+.sub-header {
+    margin: 0 0 100px 0;
+}
+
+//introducing
 
 .heading {
     margin: 0;
     padding: 0;
 }
 
+.subhead {
+    margin: 0;
+    padding: 0;
+}
+
 .buttons {
-    margin-left: auto;
     text-align: right;
 }
+
+
 
 .group{
     margin: 0;

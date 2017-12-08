@@ -2,11 +2,14 @@
 
 @import 'utils/variables';
 
-@import "base/base.scss";
+@import "base/base";
 @import 'base/typography';
 
+@import 'components/buttons';
 @import 'layout/grid';
 @import 'layout/header';
+@import 'layout/promo';
+@import 'layout/introducing';
 @import 'layout/footer';
 
 @import 'pages/home';
