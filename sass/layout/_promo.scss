@@ -8,3 +8,10 @@
     font-size: 60px;
 }
 
+.promo:after {
+    content: ' ';
+    background-color: $main-color;
+    height: 3px;
+    width: 70%;
+    display: block;
+}

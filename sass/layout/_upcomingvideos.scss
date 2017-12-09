@@ -17,3 +17,13 @@
     color: $secondary-font-color;
     font-size: 30px;
 }
+
+.concert-img:after {
+    content: ' ';
+    background-color: $main-color;
+    height: 3px;
+    width: 70%;
+    display: block;
+    margin-left: 20px;
+}
+

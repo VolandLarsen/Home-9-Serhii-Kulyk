@@ -127,6 +127,15 @@
     width: 70%;
 }
 
+.pull-right-item {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 30%;
+}
+
+//upcoming-videos
+
 .concert-img {
     margin: 40px 0;
     position: relative;
@@ -164,12 +173,7 @@
     margin: 20px 20px;
 }
 
-.pull-right-item {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    width: 30%;
-}
+
 
 //founders
 
@@ -191,7 +195,52 @@
     margin-top: 30px;
 }
 
+//song-instagram
+
+.music-player {
+    width: 100%;
+}
+
+.songs-item {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.song-list {
+    display: flex;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.song {
+    margin: 5px;
+    border-bottom: 2px solid #999999;
+}
+
+.insta-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.insta-item {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+}
+
+.insta-photo {
+    width: 120px;
+    height: auto;
+}
+
 //download
+
+.download{
+    margin-top: 30px;
+}
 
 .download-content {
     padding: 30px;
