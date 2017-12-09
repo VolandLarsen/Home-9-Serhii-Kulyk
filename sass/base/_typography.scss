@@ -11,3 +11,35 @@
 
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 
+//header-fonts
+
+.nav-link {
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.social {
+    font-family: 'Droid Sans', sans-serif;
+}
+
+//promo-fonts
+
+.main-header {
+    font-family: 'Oswald', sans-serif;
+}
+
+.sub-header {
+    font-family: 'Great Vibes', cursive;
+}
+
+//sctions-headers
+
+.head {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.subhead {
+    font-family: 'Great Vibes', cursive;
+    color: $main-color;
+    font-size: 25px;
+}

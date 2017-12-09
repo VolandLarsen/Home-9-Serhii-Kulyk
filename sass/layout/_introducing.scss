@@ -1,4 +1,18 @@
 .musician {
-    max-width: 300px;
+    max-width: 315px;
     height: auto;
+}
+
+.musician-info {
+     background-color: $main-color;
+     color: white;
+ }
+
+.musician-info-active {
+    background-color: $main-color;
+    color: white;
+}
+
+.group {
+    border-bottom: 2px solid #dfdfdf;
 }

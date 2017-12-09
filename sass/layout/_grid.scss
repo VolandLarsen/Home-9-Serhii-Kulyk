@@ -63,11 +63,15 @@
     margin: 0 0 100px 0;
 }
 
-//introducing
+//section headers
 
 .heading {
+    padding: 10px;
+}
+
+.head {
     margin: 0;
-    padding: 0;
+    padding: 20px 0 0 0;
 }
 
 .subhead {
@@ -75,26 +79,50 @@
     padding: 0;
 }
 
+//introducing
+
 .buttons {
     text-align: right;
+    padding: 10px;
 }
-
-
 
 .group{
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: center;
     .music-person {
         list-style-type: none;
         padding: 0;
-        margin: 0 10px;
+        margin: 0 5px;
     }
 }
 
 .musician-info {
     position: relative;
-    top: -100px;
+    top: -60px;
+    padding: 10px 10px 15px ;
+}
+
+.musician-info-active {
+    position: relative;
+    top: -102px;
+    padding: 10px 10px 15px ;
+}
+
+.player-social-list {
+    display: flex;
+    padding: 20px 0 0 0;
+    .player-social-item {
+        list-style-type: none;
+        padding: 0;
+        margin: 0 15px;
+    }
+}
+
+.musician-head, .musician-subhead {
+    margin: 0;
+    padding: 0;
 }
 
 //footer
