@@ -1,0 +1,66 @@
+.input-list {
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.news-latter {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+
+}
+
+.input-item {
+    float: left;
+    list-style-type: none;
+    padding: 5px 0;
+    margin: 0;
+    border-bottom: 3px solid #999999;
+}
+
+.submit {
+    border: none;
+    background-color: white;
+    color: $main-color;
+    display: inline-block;
+}
+
+.submit:hover {
+    cursor: pointer;
+    transition: color 0.5s;
+    color: $main-font-color;
+}
+
+.email {
+    background-color: transparent;
+    border: none;
+    color: #848484;
+    padding-right: 100px;
+    display: inline-block;
+}
+
+.email::-webkit-input-placeholder {
+    color: #282828;
+    font-family: "Droid Sans", sans-serif;
+    font-size: 16px;
+}
+
+.email::-moz-placeholder {
+    color: #282828;
+    font-family: "Droid Sans", sans-serif;
+    font-size: 16px;
+}
+
+.email:-ms-input-placeholder {
+    color: #282828;
+    font-family: "Droid Sans", sans-serif;
+    font-size: 16px;
+}
+
+.email:-moz-placeholder {
+    color: #282828;
+    font-family: "Droid Sans", sans-serif;
+    font-size: 16px;
+}
