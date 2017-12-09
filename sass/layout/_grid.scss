@@ -72,11 +72,14 @@
 .head {
     margin: 0;
     padding: 20px 0 0 0;
+    font-size: 25px;
 }
 
 .subhead {
     margin: 0;
     padding: 0;
+    color: $main-color;
+    font-size: 25px;
 }
 
 //introducing
@@ -125,6 +128,85 @@
     padding: 0;
 }
 
+//section-container
+
+.section-container {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.pull-left-item {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 70%;
+}
+
+.concert-img {
+    margin: 40px 0;
+    position: relative;
+}
+
+.concert-date {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.date-number, .date-month {
+    margin: 0;
+}
+
+
+.concert-info {
+    margin: 50px 0;
+}
+
+.concert-name {
+    margin: 0 20px;
+}
+
+.upcoming-concert {
+    display: flex;
+}
+
+.table-concert {
+    margin: 10px 20px;
+}
+
+.button-container {
+    margin: 20px 20px;
+}
+
+.pull-right-item {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 30%;
+}
+
+//founders
+
+.founders-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+}
+
+.founders-heading {
+    margin: 50px 0 0 50px;
+}
+
+.founders-head, .founder-subhead {
+    margin: 0;
+}
+
+.learn-more-container {
+    margin-top: 30px;
+}
+
 //footer
 
 .footer {
@@ -132,6 +214,7 @@
 }
 
 .footer-links {
+    padding-top: 30px;
     display: inline-block;
     text-align: center;
 }
@@ -139,9 +222,14 @@
 .footer-list {
     display: flex;
     align-items: center;
+    padding: 0;
     .foot-item {
         list-style-type: none;
         padding: 0;
         margin: 0 10px;
     }
+}
+
+.copyright {
+    margin-bottom: 30px;
 }

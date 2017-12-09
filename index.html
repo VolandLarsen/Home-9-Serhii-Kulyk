@@ -98,25 +98,41 @@
         <ul class="section-container">
             <li class="pull-left-item">
                 <div class="heading">
-                    <h2 class="head">OPCOMING</h2>
+                    <h2 class="head">UPCOMING</h2>
                     <p class="subhead">Concert</p>
                 </div>
-                <div class="concert-img">
-                    <img src="image/concert.png" class="Concert">
-                    <div class="concert-date">
-                        <p class="date-namber">13</p>
-                        <p class="date-month">Jan</p>
+                <div class="upcoming-concert">
+                    <div class="concert-img">
+                        <img src="image/concert.png" class="concert-image" alt="Concert">
+                        <div class="concert-date">
+                            <p class="date-number">13</p>
+                            <p class="date-month">Jan</p>
+                        </div>
                     </div>
-                </div>
-                <div class="concert-info">
-                    <h3 class="concert-name">Texas Rocks nation 2016</h3>
-                    <ul class="concert-details">
-                        <li class="details"></li>
-                        <li class="details"></li>
-                        <li class="details"></li>
-                        <li class="details"></li>
-                    </ul>
-                    <a class="main-button">Purchase Ticket</a>
+                    <div class="concert-info">
+                        <h3 class="concert-name">Texas Rocks nation 2016</h3>
+                        <table class="table-concert">
+                            <tr>
+                                <td class="info">Location</td>
+                                <td class="info">: 31 Great Smith Street, UK</td>
+                            </tr>
+                            <tr>
+                                <td class="info">Date</td>
+                                <td class="info">: July 13, 2017</td>
+                            </tr>
+                            <tr>
+                                <td class="info">Time</td>
+                                <td class="info">: 10:00 AM</td>
+                            </tr>
+                            <tr>
+                                <td class="info">Price</td>
+                                <td class="info">: $40</td>
+                            </tr>
+                        </table>
+                        <div class="button-container">
+                            <a class="main-button">Purchase Ticket</a>
+                        </div>
+                    </div>
                 </div>
             </li>
             <li class="pull-right-item">
@@ -125,11 +141,10 @@
                     <p class="subhead">Videos</p>
                 </div>
                 <div class="buttons">
-                    <button class="left"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
-                    <button class="right"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                    <button class="button"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+                    <button class="button"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
                 </div>
-                <iframe width="560" height="315"
-                        src="https://www.youtube.com/embed/3MMMe1drnZY?rel=0&autoplay=0&showinfo=0&controls=0&HD=1"
+                <iframe class="iframe-video" src="https://www.youtube.com/embed/3MMMe1drnZY?rel=0&autoplay=0&showinfo=0&controls=0&HD=1"
                         frameborder="0"
                         gesture="media" allow="encrypted-media" allowfullscreen></iframe>
             </li>
@@ -138,12 +153,16 @@
 </section>
 <section class="founders">
     <div class="container">
-        <div class="founders-heading">
-            <h2 class="founders-head">LATEST</h2>
-            <p class="founder">1982 cantus Start jurny and now it‘s top class Rock Band in the California.</p>
-            <a class="learn-more-button">Learn More</a>
+        <div class="founders-content">
+            <div class="founders-heading">
+                <h2 class="founders-head">Our Founder staying in our hearts</h2>
+                <p class="founder-subhead">1982 <span class="founf-cantus">cantus</span> Start jurny and now it‘s top class Rock Band in the California.</p>
+                <div class="learn-more-container">
+                <a class="learn-more-button">Learn More</a>
+                </div>
+            </div>
+            <img src="image/founder.png" class="founder-img" alt="Founder">
         </div>
-        <img src="image/founder.png" class="founder-img" alt="Founder">
     </div>
 </section>
 <section class="songs-instagram">
@@ -152,7 +171,7 @@
             <h2 class="head">POPULAR</h2>
             <p class="subhead">Songs</p>
         </div>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no"
+        <iframe scrolling="no" frameborder="no"
                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/57439961&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
         <ul class="song-list">
             <li class="songs-item">
@@ -218,7 +237,6 @@
         </ul>
     </form>
 </section>
-<hr>
 <footer class="footer">
     <div class="footer-links">
         <ul class="footer-list">
@@ -230,7 +248,8 @@
             <li class="foot-item"><a href="#" class="foot-link">Pages</a></li>
         </ul>
     </div>
-    <p class="copyright">Copyright © 2009–2016 cantus © their respective owners. Shipped from Salem, Mass. USA.</p>
+    <p class="copyright">Copyright © 2009–2016 <span class="cantus">cantus</span> © their respective owners. Shipped
+        from Salem, Mass. USA.</p>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/main.js"></script>

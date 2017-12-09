@@ -4,7 +4,7 @@
     text-decoration: none;
     font-family: 'Droid Sans', sans-serif;
     font-size: 15px;
-    color: #ffffff;
+    color: $secondary-font-color;
     border-radius: 25px;
     background-color: $main-color;
     padding: 10px 20px;
@@ -25,7 +25,7 @@
     font-size: 15px;
     color: $main-color;
     border-radius: 25px;
-    background-color: #ffffff;
+    background-color: $secondary-font-color;
     padding: 10px 20px;
     font-weight: bold;
 }
@@ -44,7 +44,7 @@
 
 .button {
     background-color: $main-color;
-    color: white;
+    color: $secondary-font-color;
     border: none;
     .fa {
         margin: 0 auto;
