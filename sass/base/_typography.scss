@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'DroidSans';
     src: url('../../fonts/droidsans/DroidSans.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/droidsans/DroidSans.woff') format('woff'), url('../../fonts/droidsans/DroidSans.ttf')  format('truetype'),
+    url('../../fonts/droidsans/DroidSans.woff') format('woff'), url('../../fonts/droidsans/DroidSans.ttf') format('truetype'),
     url('../../fonts/droidsans/DroidSans.svg#DroidSans') format('svg');
     font-weight: normal;
     font-style: normal;
@@ -14,14 +14,13 @@
 //header-fonts
 
 .main-header, .head, .concert-name, .date-number, .date-month, .founders-head, .download-head {
-    font-family: 'Oswald', sans-serif;
+    font-family: $head-fomt;
 }
 
 .sub-header, .cantus, .subhead, .founder-cantus {
-    font-family: 'Great Vibes', cursive;
+    font-family: $secodary-font;
 }
 
 .foot-link, .copyright, .info, .social, .nav-link, .founder-subhead, .download-subhead, .song-link {
-    font-family: 'Droid Sans', sans-serif;
+    font-family: $text-font;
 }
-

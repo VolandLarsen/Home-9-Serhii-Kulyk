@@ -12,9 +12,9 @@
     align-items: center;
     padding: 0 40px 0 40px;
     .nav-item {
-        list-style-type: none;
         padding: 0;
         margin: 0 10px;
+        list-style-type: none;
     }
 }
 
@@ -23,9 +23,9 @@
     align-items: center;
     padding: 0 47px 0 47px;
     .social-item {
-        list-style-type: none;
         padding: 0;
         margin: 0 15px;
+        list-style-type: none;
     }
 }
 
@@ -49,8 +49,8 @@
 .main-heading {
     position: absolute;
     bottom: 100px;
-    text-align: center;
     display: inline-block;
+    text-align: center;
     width: 100%;
 }
 
@@ -66,44 +66,44 @@
 //introducing
 
 .buttons {
-    text-align: right;
     padding: 10px;
+    text-align: right;
 }
 
-.group{
+.group {
     margin: 0;
     padding: 0 0 30px 0;
     display: flex;
     justify-content: center;
     .music-person {
-        list-style-type: none;
         padding: 0;
         margin: 0 5px;
         position: relative;
+        list-style-type: none;
     }
 }
 
 .musician-info {
-    width: 295px;
+    min-width: 295px;
     position: absolute;
     bottom: 0;
-    padding: 10px 10px 15px ;
+    padding: 10px 10px 15px;
 }
 
 .musician-info-active {
-    width: 295px;
+    min-width: 295px;
     position: absolute;
     bottom: 0;
-    padding: 10px 10px 15px ;
+    padding: 10px 10px 15px;
 }
 
 .player-social-list {
     display: flex;
     padding: 20px 0 0 0;
     .player-social-item {
-        list-style-type: none;
         padding: 0;
         margin: 0 15px;
+        list-style-type: none;
     }
 }
 
@@ -121,17 +121,17 @@
 }
 
 .pull-left-item {
-    list-style-type: none;
     padding: 0;
     margin: 0;
     width: 70%;
+    list-style-type: none;
 }
 
 .pull-right-item {
-    list-style-type: none;
     padding: 0;
     margin: 0;
     width: 30%;
+    list-style-type: none;
 }
 
 //upcoming-videos
@@ -151,7 +151,6 @@
 .date-number, .date-month {
     margin: 0;
 }
-
 
 .concert-info {
     margin: 50px 0;
@@ -173,14 +172,11 @@
     margin: 20px 20px;
 }
 
-
-
 //founders
 
 .founders-content {
     display: flex;
     justify-content: space-between;
-    background-color: #333333;
 }
 
 .founders-heading {
@@ -197,14 +193,14 @@
 
 //song-instagram
 
-.music-player {
+.iframe-player {
     width: 100%;
 }
 
 .songs-item {
-    list-style-type: none;
     padding: 0;
     margin: 0;
+    list-style-type: none;
 }
 
 .song-list {
@@ -220,25 +216,25 @@
 
 .insta-list {
     display: flex;
+    flex-wrap: wrap;
     padding: 0;
     margin: 0;
-    flex-wrap: wrap;
 }
 
 .insta-item {
-    list-style-type: none;
     padding: 0;
     margin: 10px;
+    list-style-type: none;
 }
 
 .insta-photo {
-    width: 120px;
+    max-width: 120px;
     height: auto;
 }
 
 //download
 
-.download{
+.download {
     margin-top: 30px;
 }
 
@@ -258,14 +254,10 @@
 }
 
 .app-item {
-    list-style-type: none;
     padding: 0;
     margin: 20px;
+    list-style-type: none;
 }
-
-//form
-
-
 
 //footer
 
@@ -274,8 +266,8 @@
 }
 
 .footer-links {
-    padding-top: 30px;
     display: inline-block;
+    padding-top: 30px;
     text-align: center;
 }
 
@@ -284,9 +276,9 @@
     align-items: center;
     padding: 0;
     .foot-item {
-        list-style-type: none;
         padding: 0;
         margin: 0 10px;
+        list-style-type: none;
     }
 }
 
