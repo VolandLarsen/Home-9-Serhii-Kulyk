@@ -84,17 +84,17 @@
 }
 
 .musician-info {
-    min-width: 295px;
+    width: 100%;
     position: absolute;
     bottom: 0;
-    padding: 10px 10px 15px;
+    padding: 10px 0 15px 0;
 }
 
 .musician-info-active {
-    min-width: 295px;
+    width: 100%;
     position: absolute;
     bottom: 0;
-    padding: 10px 10px 15px;
+    padding: 10px 0 15px 0;
 }
 
 .player-social-list {
@@ -109,7 +109,7 @@
 
 .musician-head, .musician-subhead {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 10px;
 }
 
 //section-container
