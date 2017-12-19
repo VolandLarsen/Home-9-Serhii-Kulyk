@@ -9,13 +9,17 @@
     border-radius: 25px;
     background-color: $main-color;
     padding: 10px 20px;
+    margin-top: 80px;
+    display: inline-block;
+    &:hover {
+        color: $main-font-color;
+        transition: 0.5s;
+        cursor: pointer;
+        opacity: 0.8;
+    }
 }
 
-.main-button:hover {
-    color: $main-font-color;
-    transition: 0.5s;
-    cursor: pointer;
-}
+
 
 //header button and founder
 
@@ -28,26 +32,33 @@
     border-radius: 25px;
     background-color: $secondary-font-color;
     padding: 10px 20px;
+    display: inline-block;
 }
 
 .purshcase-button:hover {
     color: $main-font-color;
     transition: 0.5s;
     cursor: pointer;
+    opacity: 0.8;
 }
 
 .learn-more-button:hover {
     color: $main-font-color;
     transition: 0.5s;
     cursor: pointer;
+    opacity: 0.8;
 }
 
 .button {
     background-color: $main-color;
     color: $secondary-font-color;
-    border: none;
+    display: inline-block;
+    padding: 5px 10px;
     .fa {
         margin: 0 auto;
         padding: 0;
+    }
+    &:hover{
+        opacity: 0.8;
     }
 }

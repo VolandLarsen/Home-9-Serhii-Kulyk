@@ -2,9 +2,12 @@
     font-size: 80px;
     font-weight: bold;
     color: $main-color;
+    width: 500px;
+    line-height: 1;
 }
 
 .sub-header {
+    color: $main-font-color;
     font-size: 60px;
 }
 
@@ -14,4 +17,11 @@
     height: 3px;
     width: 70%;
     display: block;
+    position: absolute;
+}
+
+.promo {
+    background-image: url("../images/promo.png");
+    background-size: cover;
+    border-bottom: 3px #d3d3d3 solid;
 }

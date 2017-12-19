@@ -9,8 +9,31 @@
     color: $secondary-font-color;
 }
 
-.nav-link:hover {
-    text-decoration: line-through;
+.nav-item {
+    display: inline-block;
+    a {
+        position: relative;
+        display: block;
+        padding: 0 10px;
+        font: 700 13px $secondary-font-color;
+        text-transform: uppercase;
+        text-decoration: none;
+        outline: none;
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            height: 1px;
+            width: 0;
+            background: transparent;
+        }
+        &:hover:before {
+            background: $secondary-font-color;
+            width: 100%;
+        }
+    }
 }
 
 .social {

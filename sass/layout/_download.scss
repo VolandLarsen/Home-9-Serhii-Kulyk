@@ -12,3 +12,8 @@
     color: $secondary-font-color;
     font-size: 16px;
 }
+
+.app-item:hover {
+    transition: 0.5s;
+    opacity: 0.5;
+}

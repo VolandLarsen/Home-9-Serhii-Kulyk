@@ -10,10 +10,10 @@
 .nav-list {
     display: flex;
     align-items: center;
-    padding: 0 40px 0 40px;
+    padding: 0 35px 0 35px;
     .nav-item {
         padding: 0;
-        margin: 0 10px;
+        margin: 0;
         list-style-type: none;
     }
 }
@@ -35,28 +35,15 @@
 
 //promo section
 
-.promo-info {
-    position: relative;
-}
-
-.promo-img {
-    width: 100%;
-    padding: 0;
-    height: auto;
-    vertical-align: middle;
-}
-
 .main-heading {
-    position: absolute;
-    left: 0;
-    bottom: 100px;
+    margin: 100px 0 100px;
     display: inline-block;
     text-align: center;
     width: 100%;
 }
 
 .main-header {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -81,20 +68,14 @@
         margin: 0 5px;
         position: relative;
         list-style-type: none;
+        overflow: hidden;
     }
-}
-
-.musician-info {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    padding: 10px 0 15px 0;
 }
 
 .musician-info-active {
     width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: -40px;
     padding: 10px 0 15px 0;
 }
 
@@ -138,7 +119,7 @@
 //upcoming-videos
 
 .concert-img {
-    margin: 40px 0;
+    margin: 40px 0 0 0;
     position: relative;
 }
 
