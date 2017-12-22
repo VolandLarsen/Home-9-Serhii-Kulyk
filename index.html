@@ -5,6 +5,7 @@
     <title>Lets' Rock</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="fonts/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="flexslider/flexslider.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -35,11 +36,44 @@
         </ul>
     </nav>
 </header>
-<section class="promo">
-    <div class="main-heading">
-        <h1 class="main-header">LET’S ROCK <span class="sub-header">With Cantus</span></h1>
-        <a class="main-button" href="#">DISCOVER MORE</a>
+<section class="promo-slider">
+    <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <div class="promo">
+                    <div class="main-heading">
+                        <h1 class="main-header">LET’S ROCK <span class="sub-header">With Cantus</span></h1>
+                        <a class="main-button" href="#">DISCOVER MORE</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="promo">
+                    <div class="main-heading">
+                        <h1 class="main-header">LET’S ROCK <span class="sub-header">With Cantus</span></h1>
+                        <a class="main-button" href="#">DISCOVER MORE</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="promo">
+                    <div class="main-heading">
+                        <h1 class="main-header">LET’S ROCK <span class="sub-header">With Cantus</span></h1>
+                        <a class="main-button" href="#">DISCOVER MORE</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="promo">
+                    <div class="main-heading">
+                        <h1 class="main-header">LET’S ROCK <span class="sub-header">With Cantus</span></h1>
+                        <a class="main-button" href="#">DISCOVER MORE</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
     </div>
+
 </section>
 <section class="introducing">
     <div class="container">
@@ -174,7 +208,7 @@
                 <p class="founder-subhead">1982 <span class="founder-cantus">cantus</span> Start jurny and now it‘s top
                     class Rock Band in the California.</p>
                 <div class="learn-more-container">
-                    <a class="learn-more-button">Learn More</a>
+                    <a class="learn-more-button" id="go">Learn More</a>
                 </div>
             </div>
             <img src="images/founder.png" class="founder-img" alt="Founder">
@@ -283,7 +317,27 @@
     <p class="copyright">Copyright © 2009–2016 <span class="cantus">cantus</span> © their respective owners. Shipped
         from Salem, Mass. USA.</p>
 </footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<div id="modal_form"><!-- Popup window-->
+    <span id="modal_close">X</span> <!-- Closing button -->
+    <div class="heading">
+        <h2 class="head">DISCOVER MORE ABOUT OUR <span class="subhead">FOUNDERS</span></h2>
+        <p class="popup-text">Subscribe on our newslatter and discover more info about Cantus and upcoming concerts/</p>
+        <form class="news-latter" method="post" action="#">
+            <ul class="input-list">
+                <li class="input-item"><input type="text" class="input-text" placeholder="enter your name"></li>
+                <li class="input-item"><input type="email" class="email" placeholder="subscribe newsletter"></li>
+                <li class="input-item">
+                    <button type="submit" class="submit" value="">
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+                </li>
+            </ul>
+        </form>
+    </div>
+</div>
+<div id="overlay"></div><!-- background overlay -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="flexslider/jquery.flexslider.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
