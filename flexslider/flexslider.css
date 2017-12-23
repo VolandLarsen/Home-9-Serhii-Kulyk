@@ -273,3 +273,15 @@ html[xmlns] .flexslider .slides {
     right: 10px;
   }
 }
+
+@media screen and (max-width: 860px) {
+  .flex-direction-nav .flex-prev-video {
+    opacity: 1;
+    left: 10px;
+  }
+  
+  .flex-direction-nav .flex-next-video {
+    opacity: 1;
+    right: 10px;
+  }
+}

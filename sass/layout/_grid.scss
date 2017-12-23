@@ -1,3 +1,7 @@
+.flex-control-nav {
+    display: none;
+}
+
 //header
 
 .header {
@@ -51,6 +55,10 @@
     margin: 0 0 100px 0;
 }
 
+.promo-slider {
+    overflow-x: hidden;
+}
+
 //introducing
 
 .buttons {
@@ -73,7 +81,7 @@
 }
 
 .musician-info-active {
-    width: 100%;
+    width: 315px;
     position: absolute;
     bottom: -40px;
     padding: 10px 0 15px 0;
@@ -119,7 +127,7 @@
 //upcoming-videos
 
 .concert-img {
-    margin: 40px 0 0 0;
+    margin: 0;
     position: relative;
 }
 
@@ -134,8 +142,12 @@
     margin: 0;
 }
 
+.flexslider3 {
+    margin-bottom: 40px;
+}
+
 .concert-info {
-    margin: 50px 0;
+    margin: 0;
 }
 
 .concert-name {

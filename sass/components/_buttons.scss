@@ -60,3 +60,22 @@
         opacity: 0.8;
     }
 }
+
+.main-button-purshcase {
+    text-decoration: none;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: $secondary-font-color;
+    border-radius: 25px;
+    background-color: $main-color;
+    padding: 10px 20px;
+    margin-top: 30px;
+    display: inline-block;
+    &:hover {
+        color: $main-font-color;
+        transition: 0.5s;
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}
